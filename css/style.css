@@ -1,0 +1,82 @@
+*{
+    margin: 1;
+    padding: 1;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/c.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.logo{
+    width: 70px;
+    margin-top: 20px ;
+}
+.header{
+    height: 20%;
+}
+.header-btn{
+    background-color: #107faD;
+    padding: 7px 20px;
+    border-radius: 30px;
+    float: right;
+    margin-top: 20px;
+
+}
+.movie-details{
+    margin: 3% 0 ;
+}
+h1{
+    color: white;
+    
+}
+p{
+    color: white;
+}
+.casting img{
+    height:40px;
+    width: 30px;
+    margin-left:10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.left-box a {
+    color: white;
+    background-color: #107faD;
+    border-radius: 30px;
+    padding: 7px 10px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.download-btn{
+    color: white;
+    background-color: transparent !important;
+    border: 1px solid white;
+}
+.right-box img{
+    float: right;
+    margin-top: -250px;
+}
+.movie-img{
+    height: 250px;
+    box-shadow: -4px 4px 5px 0 #000;    
+    
+}
+h3{
+    color: white;
+    margin: 4% 1;
+}
+
+.series img{
+    width: 200px;
+    margin: 9px;
+    box-shadow:-4px 4px 5px 0 #000;
+    cursor: pointer;
+    transition: 1s;
+    float: left;
+}
+.series img:hover{
+    transform: translateY(-12px);
+}
